@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="320" viewBox="0 0 1120 320" role="img" aria-labelledby="title desc">
+  <title id="title">The tutorial at a glance</title>
+  <desc id="desc">All steps take place at NERSC. Start with the ATLAS notebook and software requirements in Section 2. Package the software in a container image in Section 3: software environment ready. Tell Jupyter to use the container in Section 4: Jupyter connection ready. Run the analysis and check the data and result in Section 5: analysis verified.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#627b8b"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="320" rx="18" fill="#ffffff"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif" text-anchor="middle">
+    <text x="560" y="34" font-size="26" font-weight="700" fill="#142d40">The tutorial at a glance</text>
+    <text x="560" y="64" font-size="18" fill="#34586c">All steps take place at NERSC</text>
+
+    <rect x="24" y="90" width="244" height="208" rx="14" fill="#f3f5f7" stroke="#8799a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="146" y="120" font-size="16" fill="#34586c">Starting point · Section 2</text>
+    <text x="146" y="160" font-size="23" font-weight="700" fill="#142d40">Notebook +</text>
+    <text x="146" y="190" font-size="19" font-weight="700" fill="#142d40">software requirements</text>
+    <text x="146" y="258" font-size="18" fill="#34586c">Our ATLAS example</text>
+
+    <path d="M272 190 H294" fill="none" stroke="#627b8b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="300" y="90" width="244" height="208" rx="14" fill="#eff8fa" stroke="#187c91" stroke-width="1.5"/>
+    <text x="422" y="120" font-size="16" fill="#146477">Section 3</text>
+    <text x="422" y="155" font-size="23" font-weight="700" fill="#142d40">Package the</text>
+    <text x="422" y="183" font-size="23" font-weight="700" fill="#142d40">software</text>
+    <text x="422" y="211" font-size="17" fill="#34586c">Build a container image</text>
+    <path d="M320 228 H524" stroke="#88bec9"/>
+    <text x="422" y="254" font-size="17" font-weight="700" fill="#146477">Software environment</text>
+    <text x="422" y="277" font-size="17" font-weight="700" fill="#146477">ready</text>
+
+    <path d="M548 190 H570" fill="none" stroke="#627b8b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="576" y="90" width="244" height="208" rx="14" fill="#eff8fa" stroke="#187c91" stroke-width="1.5"/>
+    <text x="698" y="120" font-size="16" fill="#146477">Section 4</text>
+    <text x="698" y="155" font-size="23" font-weight="700" fill="#142d40">Tell Jupyter</text>
+    <text x="698" y="183" font-size="23" font-weight="700" fill="#142d40">to use it</text>
+    <text x="698" y="211" font-size="17" fill="#34586c">Configure the kernel</text>
+    <path d="M596 228 H800" stroke="#88bec9"/>
+    <text x="698" y="254" font-size="17" font-weight="700" fill="#146477">Jupyter connection</text>
+    <text x="698" y="277" font-size="17" font-weight="700" fill="#146477">ready</text>
+
+    <path d="M824 190 H846" fill="none" stroke="#627b8b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="852" y="90" width="244" height="208" rx="14" fill="#eff8fa" stroke="#187c91" stroke-width="1.5"/>
+    <text x="974" y="120" font-size="16" fill="#146477">Section 5</text>
+    <text x="974" y="155" font-size="23" font-weight="700" fill="#142d40">Run the</text>
+    <text x="974" y="183" font-size="23" font-weight="700" fill="#142d40">analysis</text>
+    <text x="974" y="211" font-size="17" fill="#34586c">Check data and the result</text>
+    <path d="M872 228 H1076" stroke="#88bec9"/>
+    <text x="974" y="254" font-size="17" font-weight="700" fill="#146477">Analysis</text>
+    <text x="974" y="277" font-size="17" font-weight="700" fill="#146477">verified</text>
+  </g>
+</svg>

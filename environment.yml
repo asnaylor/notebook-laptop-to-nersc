@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+# Requirements for this tutorial, not the full ATLAS notebook collection.
+# Direct versions match the successful Perlmutter checks; transitive builds are not locked.
+name: atlas-notebook-find-z
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.16
+  - aiohttp=3.14.3
+  - atlasopenmagic=1.10.1
+  - awkward=2.13.0
+  - ipykernel=6.31.0
+  - matplotlib-base=3.11.1
+  - numpy=2.4.6
+  - pandas=2.3.3
+  - requests=2.34.2
+  - uproot=5.7.6
+  - vector=1.8.1
